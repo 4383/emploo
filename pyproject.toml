@@ -1,0 +1,51 @@
+[build-system]
+requires = [
+  "hatch-vcs>=0.3",
+  "hatchling>=1.12.2",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "emploo"
+authors = [
+    {name = "Hervé Beraud", email = "herveberaud.pro@gmail.com"},
+]
+description = "A command-line tool to lookup employees for a given company."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+url.Homepage = "https://github.com/4383/employees-lookup"
+url.Source = "https://github.com/4383/employees-lookup"
+url.Tracker = "https://github.com/4383/employees-lookup/issues"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Security",
+    "Topic :: Sociology",
+]
+dynamic = ["version"]
+dependencies = [
+    "requests"
+]
+
+[project.optional-dependencies]
+dev = ["black", "isort", "pip-tools", "build", "twine", "pre-commit", "commitizen"]
+
+[project.scripts]
+emploo = "emploo.__main__:main"
+
+[options.packages.find]
+where = "emploo"
+exclude = "tests*"
+
+[tool.hatch]
+version.source = "vcs"

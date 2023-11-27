@@ -1,0 +1,17 @@
+*.eggs/
+*.egg-info/
+*__pycache__*
+build/
+.tox/
+*.pyc
+dist/
+*.swa
+*.swp
+*~
+bin/
+lib/
+lib64
+pyvenv.cfg
+venv/
+.venv/
+ChangeLog
