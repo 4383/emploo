@@ -10,7 +10,8 @@
 OSINT tool to list employees of a given company. Profiles discovering
 based on Linkedin data.
 
-<img src="https://github.com/4383/emploo/blob/main/disclaimer.png" width="600" alt="C#" />
+<img src="https://github.com/4383/emploo/blob/main/disclaimer.png" width="600"
+alt="This tool is for educational purposes only, I am not responsible for its use." />
 
 ## 📋 Description
 
@@ -88,4 +89,4 @@ basis.
 ## 😉 Contribute
 
 If you want to contribute to this project
-[please first read the contribution guidelines](CONTRIBUTING.md)
+[please first read the contribution guidelines](https://github.com/4383/emploo/blob/main/CONTRIBUTING.md)

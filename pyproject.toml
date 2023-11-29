@@ -14,9 +14,9 @@ description = "A command-line tool to lookup employees for a given company."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-url.Homepage = "https://github.com/4383/employees-lookup"
-url.Source = "https://github.com/4383/employees-lookup"
-url.Tracker = "https://github.com/4383/employees-lookup/issues"
+url.Homepage = "https://github.com/4383/emploo"
+url.Source = "https://github.com/4383/emploo"
+url.Tracker = "https://github.com/4383/emploo/issues"
 classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
@@ -28,6 +28,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Development Status :: 3 - Alpha",
     "Topic :: Software Development",
     "Topic :: Security",
     "Topic :: Sociology",
