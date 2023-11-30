@@ -14,9 +14,6 @@ description = "A command-line tool to lookup employees for a given company."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-url.Homepage = "https://github.com/4383/emploo"
-url.Source = "https://github.com/4383/emploo"
-url.Tracker = "https://github.com/4383/emploo/issues"
 classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
@@ -37,6 +34,13 @@ dynamic = ["version"]
 dependencies = [
     "requests"
 ]
+
+[project.urls]
+Homepage = "https://github.com/4383/emploo"
+History = "https://github.com/4383/emploo/blob/main/CHANGELOG.md"
+Sponsor = "https://github.com/sponsors/4383"
+Tracker = "https://github.com/4383/emploo/issues"
+Source = "https://github.com/4383/emploo"
 
 [project.optional-dependencies]
 dev = ["black", "isort", "pip-tools", "build", "twine", "pre-commit", "commitizen"]
